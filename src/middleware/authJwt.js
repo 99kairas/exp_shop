@@ -22,6 +22,6 @@ const verifyToken = (req, res, next) => {
     })
 }
 
-exports.module = {
+module.exports = {
     verifyToken,
 }

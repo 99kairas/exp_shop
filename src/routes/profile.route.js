@@ -1,5 +1,5 @@
 const middleware = require('../middleware')
-const controller = require('../controllers/profile.controller')
+const controller = require('../controllers/profile.controller.js')
 
 module.exports = (app) => {
   app.use(function (req, res, next) {
